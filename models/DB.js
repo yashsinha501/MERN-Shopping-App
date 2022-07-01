@@ -7,5 +7,6 @@ mongoose.connect(process.env.MONGODB_URI, (err) => {
 
 
 require('./product.model')
+require('./user.model')
 
 
