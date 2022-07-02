@@ -39,4 +39,4 @@ userSchema.pre('save', function (next) {
 });
 
 
-mongoose.model("userSchema",userSchema);
+module.exports=mongoose.model("userSchema",userSchema);
